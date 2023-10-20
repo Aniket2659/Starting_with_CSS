@@ -1,0 +1,40 @@
+/* Base styling for all paragraphs */
+.paragraph {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the introduction paragraph */
+.paragraph--intro {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Styling for the main content paragraph */
+.paragraph--main {
+    background-color: #fff;
+    color: #444;
+}
+
+/* Styling for the sidebar paragraph */
+.paragraph--sidebar {
+    background-color: #f9f9f9;
+    color: #555;
+    border-left: 3px solid #007acc;
+}
+
+/* Styling for the footer paragraph */
+.paragraph--footer {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* In the CSS code, we use class selectors to target each paragraph based on its class name. We apply distinct styling to each paragraph based on its purpose or context, as specified in the BEM naming convention.
+
+1. The paragraph class defines common styling for all paragraphs.
+2. The paragraph--intro, paragraph--main, paragraph--sidebar, and paragraph--footer classes are used to apply specific styling to each paragraph element based on its role within the page */
+
+/* By following the BEM naming convention, it's clear which styles are meant for the entire paragraph block and which are modifiers for specific elements within the block, making the code more organized and maintainable. */
